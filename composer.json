@@ -1,0 +1,16 @@
+{
+  "name": "alex-scott/graphql-compiled-schema",
+  "description": "Compile PHP resolvers from GraphQL schema file",
+  "type": "library",
+  "license": "mit",
+  "require": {
+    "phpunit/phpunit": "^9.0",
+    "webonyx/graphql-php": "^15",
+    "php": ">=7.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "GSchema\\": "src/"
+    }
+  }
+}
